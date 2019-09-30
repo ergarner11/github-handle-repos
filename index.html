@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>GitHub Handle Repo App</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Retrieve list of repos associated with a GitHub handle">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>GitHub Repos</h1>
+    
+            <form>
+                <label>GitHub Handle
+                    <input type="text" placeholder="Type a GitHub handle" required>
+                </label>
+                <input type="submit" value="See Repos">
+            </form>
+
+            <section>
+                <ul class="repos">
+
+                </ul>
+            </section>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

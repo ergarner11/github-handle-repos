@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.repo {
+  height: 400px;
+  padding: 20px;
+}
